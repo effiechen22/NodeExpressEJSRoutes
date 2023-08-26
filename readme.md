@@ -41,7 +41,13 @@ Date : 2023-08-26
 
    - 訪問 `http://localhost:3000` 查看應用程序。
 
-- 🚧專案架構 [View Structure](https://miro.com/)
+- 🚧專案架構 [View Structure](https://miro.com/)  
+   /  
+   /layout     - EJS 視圖引擎  
+   /user   
+   /user/photo - 子路由設定  
+   /search     - AJAX 前後端介接  
+
 
 - 🚧專案Demo 
    [View Demo](https://effiechen22.github.io/)
@@ -56,6 +62,8 @@ Date : 2023-08-26
 
 ## 🚧內容
 ### Node.js + Express框架
-### 路由模組化
+### 使用express.Router();實現路由模組化 
 ### 視圖引擎 EJS
-
+### POST AJAX 前後端介接
+   - x-www-form-urlencoded 格式實作
+   - json 格式實作
